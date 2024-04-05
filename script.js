@@ -23,10 +23,6 @@ const changeTextColor = () => {
    p.style.color = getRandomColor()
 }
 
-
-
-
-
 sizeUp.addEventListener('click', bigText);
 sizeDown.addEventListener('click', minText);
 color.addEventListener('click', changeTextColor);
